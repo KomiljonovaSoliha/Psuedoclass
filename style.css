@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+
+header {
+    margin-top: 46px;
+}
+
+.container {
+    max-width: 1179px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 475px;
+}
+
+.headerContainer {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.li:hover {
+    font-weight: 150px;
+}
+
+.container2,
+.mainContainer {
+    max-width: 1180px;
+    width: 100%;
+    height: 466px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 91px;
+}
+
+
+.text-side p {
+    color: #7D7987;
+}
+
+.text-side h1 {
+    margin-bottom: 26px;
+    width: 300px;
+    height: 98px;
+    font-size: 36px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-side {
+    margin-right: 131px;
+}
+
+.text-side button {
+    width: 197px;
+    height: 49px;
+    border-radius: 55px;
+    margin-top: 35px;
+    border: none;
+}
+
+.text-side,
+.image-side {
+    max-width: 100%;
+}
+
+.btn:hover {
+    background-color: #458FF6;
+    color: white;
+}
+
+.center-text {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 61px;
+    margin-top: 91px;
+}
+
+.text {
+    width: 800px;
+    height: 60px;
+    font-family: "Mulish";
+    color: #7D7987;
+    text-align: center;
+    margin-left: 200px;
+}
+
+section {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+    gap: 20px;
+}
+
+.figma {
+    width: 380px;
+    height: 380px;
+}
+
+.figma2 {
+    width: 380px;
+    height: 380px;
+}
+
+.btn2 {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    color: #458FF6;
+    background-color: white;
+    margin-left: 496px;
+    margin-top: 32px;
+}
+
+.title1 {
+
+    max-width: 436px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 76px;
+}
+
+h3 {
+    font-family: 'Mulish';
+    font-size: 48px;
+    font-weight: 700px;
+    text-align: center;
+    padding-top: 76px;
+    margin-bottom: 75px;
+}
+
+.container3 {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+
+.ong-text {
+    width: 435px;
+    height: 396px;
+    padding-top: 36px;
+    color: black;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: 700px;
+    margin-bottom: 62px;
+}
+
+.paragraftext {
+    font-size: 18px;
+    color: #7D7987;
+    margin-bottom: 41px;
+    line-height: 30px;
+}
+
+.btn3 {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    color: #458FF6;
+    background-color: white;
+    margin-top: 41px;
+}
+
+.container4 {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+h5 {
+
+    margin-top: 152px;
+    font-size: 36px;
+    font-weight: 700px;
+    margin-bottom: 109px;
+}
+
+.title2 {
+    text-align: center;
+}
+
+.mainContainer3 {
+    display: flex;
+}
+
+.tajriba {
+    display: flex;
+    gap: 20px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.massaj {
+    display: flex;
+}
+
+.btn4 {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    color: #458FF6;
+    background-color: white;
+    margin-left: 620px;
+    margin-top: 43px;
+}
+
+.footcontainer {
+    max-width: 1, 180px;
+    width: 100%;
+    margin: 0 auto;
+    height: 142px;
+    display: flex;
+    color: white;
+    margin-left: 165px;
+}
+
+footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    max-width: 1, 600px;
+    width: 100%;
+    margin: 0 auto;
+    height: 432px;
+    padding-top: 159px;
+    margin-top: 230px;
+}
+
+p {
+    color:white;
+    font-size: 18px;
+    font-weight: 300px;
+    width: 386px;
+    height: 45px;
+    margin-top: 17px;
+}
+
+.footmenu1 li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300px;
+
+
+}
+
+.footmenu1 a {
+    text-decoration: none;
+    color: white;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+
+.foottext {
+    display: flex;
+    gap: 170px;
+}
+
+.loggo {
+    width: 170px;
+    height: 41px;
+}
+
+.tagma-tag {
+    margin-right: 150px;
+}
+
+.noname{
+    color: #7D7987;
+}
+a{
+    text-decoration: none;
+    color: #4089ED;
+}
+.card1,.card2,.card3{
+    background-color: #FFFFFF;
+    
+}
+.Project{
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    
+    padding-left: 38px;
+}
+.logo{
+    margin-top: 68px;
+    margin-bottom: 40px;
+
+    
+    width: 96px;
+    height: 93px;
+}
+.vertualh{
+    margin: 0;
+    color: #000000;
+
+}
+.vertualtext{
+    font-size: 16px;
+    font-weight:300px;
+    line-height: 28px;
+    width: 280px;
+    height: 88px;
+    color:#7D7987 ;
+    
+    
+}
+.aka-ukalar{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
